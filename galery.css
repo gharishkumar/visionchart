@@ -1,0 +1,37 @@
+body {
+    background-color: #f7f780;
+}
+.center {
+    position: absolute;
+    top: 50% ;
+    transform: translate(-.5% , -50% );
+}
+.gallery {
+    background-color: #f7f780;
+    margin: 1% ;
+}
+.gallery img {
+    width: 100% ;
+    height: auto;
+    position: relative;
+    display: inline-block;
+}
+.gallery .img-top {
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.gallery a:focus .img-top {
+    display: inline;
+}
+[role = "gridcell"],
+[role = "gridcell"][tabindex] {
+    display: inline-flex;
+    position: relative;
+}
+[role = "gridcell"]:focus,
+[role = "gridcell"] *:focus {
+    outline: #f7f780;
+    outline-style: solid;
+}
