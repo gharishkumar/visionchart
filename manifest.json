@@ -3,6 +3,7 @@
     "lang": "English",
     "name": "Vision Chart",
     "short_name": "Eye chart",
+    "categories": ["education", "medical"],
     "scope": "/visionchart/",
     "display": "fullscreen",
     "start_url": "https://gharishkumar.github.io/visionchart/",
